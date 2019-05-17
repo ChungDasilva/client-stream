@@ -1,4 +1,4 @@
-const socket = io('https://stream3005.herokuapp.com/');
+const socket = io('https://video-call-tnt4.herokuapp.com/');
 
 $('#div-chat').hide();
 
@@ -7,9 +7,9 @@ let customConfig;
 $.ajax({
   url: "https://service.xirsys.com/ice",
   data: {
-    ident: "vanpho",
-    secret: "2b1c2dfe-4374-11e7-bd72-5a790223a9ce",
-    domain: "vanpho93.github.io",
+    ident: "client-stream",
+    secret: "4e8ff9e8-788b-11e9-9e32-0242ac110003",
+    domain: "chungdasilva.github.io",
     application: "default",
     room: "default",
     secure: 1
